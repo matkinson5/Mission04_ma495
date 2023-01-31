@@ -1,12 +1,12 @@
 ﻿body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*change the default font*/
 
 }
 
 img {
-    width: 25%;
+    width: 25%; /*change the size of the image*/
 }
 
 p {
-    max-width: 50%;
+    max-width: 50%; /*make the paragraph fit within a certain frame*/
 }

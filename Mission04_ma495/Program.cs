@@ -7,6 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+//program objective: display information on a simple HTML page, display information gained from forms
+//started by Maryanne Atkinson on 1/30/23
+
 namespace Mission04_ma495
 {
     public class Program
