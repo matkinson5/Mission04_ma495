@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model CalculatorModel;
+
+<h3>Grade Calculator</h3>
+
+<p>input a percentage scored for each grade category</p>
+
+<form method="post">
+    <!--the inputs from the form are used to calculate the final percentage and the grade-->
+    <label>Assignments:</label>
+    <input id="a" type="number" asp-for="a"/> <br />
+    <label>Group Project:</label>
+    <input id="gp" type="number" asp-for="gp" /> <br />
+    <label>Quizzes:</label>
+    <input id="q" type="number" asp-for="q"/> <br />
+    <label>Midterm Exam:</label>
+    <input id="me" type="number" asp-for="me"/> <br />
+    <label>Final Exam:</label>
+    <input id="fe" type="number" asp-for="fe"/> <br />
+    <label>INTEX:</label>
+    <input id="i" type="number" asp-for="i"/> <br />
+    <input id="btnSend" type="submit" value="Calculate Your Grade" />
+
+    <br />
+    <h3>Your Grade:</h3>   <!--the two empty p tags below will have text once the user inputs their grades for the different categories-->
+    <p id="finalPercentage"></p>
+    <p id="grade"></p>
+
+</form>

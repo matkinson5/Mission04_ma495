@@ -9,12 +9,16 @@
   <ItemGroup>
     <Compile Remove="wwwroot\NewFolder1\**" />
     <Compile Remove="wwwroot\NewFolder\**" />
+    <Compile Remove="x\**" />
     <Content Remove="wwwroot\NewFolder1\**" />
     <Content Remove="wwwroot\NewFolder\**" />
+    <Content Remove="x\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="x\**" />
     <None Remove="wwwroot\NewFolder1\**" />
     <None Remove="wwwroot\NewFolder\**" />
+    <None Remove="x\**" />
   </ItemGroup>
 
   <ItemGroup>
